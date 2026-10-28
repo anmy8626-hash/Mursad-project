@@ -1,1 +1,29 @@
+=== Python (OT Simulation & AI) ===
+__pycache__/ 
+*.py[cod] 
+*$py.class 
+.venv/ 
+venv/ 
+ENV/
+*.log
 
+=== Arduino IDE (ESP32 Firmware) ===
+build/
+bin/ 
+🔥_*.ino.hex 
+*.ino.elf
+*.ino.with_bootloader.bin
+
+=== PCB Design (EasyEDA / KiCad / Altium) ===
+*.bck
+*.kicad_pcb-bak 
+*-bak 
+*.rpt
+*.logs/
+*.Telemetry Status Report.Txt
+
+=== OS & IDE Temporary Files ===
+.DS_Store
+Thumbs.db 
+.vscode/
+.idea/
