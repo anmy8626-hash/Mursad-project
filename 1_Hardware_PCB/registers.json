@@ -1,1 +1,28 @@
+{
+  "device": "MURSAD_ESP32_S3",
+  "baud_rate": 115200,
+  "isolation_threshold_pct": 5.0,
+  "max_isolation_time_ms": 10,
+  "telemetry": {
+    "v": { "unit": "V", "description": "Measured voltage" },
+    "i": { "unit": "A", "description": "Measured current" },
+    "p": { "unit": "W", "description": "Active power" },
+    "pf": { "unit": "ratio", "description": "Power factor" },
+    "temp": { "unit": "C", "description": "Measured temperature" },
+    "press": { "unit": "bar", "description": "Measured pressure" },
+    "z_actual": { "unit": "Ohm", "description": "Calculated impedance V/I" },
+    "z_expected": { "unit": "Ohm", "description": "Digital twin expected impedance" },
+    "dev_pct": { "unit": "%", "description": "Deviation percentage from twin model" },
+    "isolated": { "unit": "bool", "description": "Hardware isolation active state" },
+    "lamp": { "unit": "bool", "description": "Lamp load state" },
+    "motor": { "unit": "bool", "description": "Motor load state" },
+    "reason": { "unit": "string", "description": "Status or isolation trigger reason" }
+  },
+  "commands": [
+    "SET_LAMP",
+    "SET_MOTOR",
+    "TRIGGER_ISOLATION",
+    "RESET_ISOLATION"
+  ]
+}
 
