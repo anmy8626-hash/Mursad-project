@@ -11,4 +11,4 @@ This layer provides the physics-based **Digital Twin** verification and anomaly 
 1. **Expected Physical Behavior:** Computes expected electrical/thermal parameters (such as impedance $Z = V / I$ and load behavior) from active system state.
 2. **Deviation Monitoring:** Measures percentage deviation between actual readings and expected Digital Twin values against the **±5%** safety limit.
 3. **Isolation & Forensics:** Flags anomalies (e.g., physical deviation > ±5%, over-temperature, or command-to-physics mismatch) to trigger hardware isolation (< 10 ms) and log events.
-
+https://studio.edgeimpulse.com/public/1158139/live
