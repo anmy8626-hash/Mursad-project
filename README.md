@@ -29,5 +29,9 @@ MURSAD is structured into three integrated defense layers:
 1. **Run the Digital Twin & GMM Anomaly Evaluator:**
    python 2_AI_DigitalTwin/models/anomaly_detector.py
 
+## Team Leadership
+
+* **Project Lead:** **Asma Al-Madi** — Electrical & Communications Engineering student at Princess Nourah bint Abdulrahman University.
+* **Role & Contributions:** Leading the **MURSAD** team across system architecture, embedded/hardware integration (`1_Hardware_PCB`), Digital Twin & GMM anomaly detection workflows (`2_AI_DigitalTwin`), OT network/Modbus simulation (`3_OT_Network_IT`), and technical documentation.
    ```bash
    python 2_AI_DigitalTwin/models/anomaly_detector.py
