@@ -28,6 +28,6 @@ MURSAD is structured into three integrated defense layers:
 ## Quick Start
 1. **Run the Digital Twin & GMM Anomaly Evaluator:**
    python 2_AI_DigitalTwin/models/anomaly_detector.py
-1. **Run the Digital Twin & GMM Anomaly Evaluator:**
+
    ```bash
    python 2_AI_DigitalTwin/models/anomaly_detector.py
